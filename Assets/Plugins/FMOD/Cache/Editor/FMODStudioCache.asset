@@ -42,7 +42,7 @@ MonoBehaviour:
   Path: ../PizzaTIME_FMOD_Project/Pizzatime/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 637811521096963885
+  lastModified: 637811540578704732
   FileSizes:
   - Name: Desktop
     Value: 1090
@@ -115,7 +115,7 @@ MonoBehaviour:
   Path: ../PizzaTIME_FMOD_Project/Pizzatime/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 637811521096948870
+  lastModified: 637811540578684711
   FileSizes:
   - Name: Desktop
     Value: 1497856
@@ -174,7 +174,7 @@ MonoBehaviour:
   - {fileID: -7067941881034508421}
   StringsBanks:
   - {fileID: -8378553117880452968}
-  cacheTime: 637811521096963885
+  cacheTime: 637811540578704732
   cacheVersion: 10
 --- !u!114 &2917734360320451157
 MonoBehaviour:
@@ -246,8 +246,8 @@ MonoBehaviour:
   Name: Volume
   StudioPath: 
   Min: 0
-  Max: 1
-  Default: 1
+  Max: 20
+  Default: 20
   ID:
     data1: 1350623327
     data2: 3163834431

@@ -49,14 +49,7 @@ public class AudioManager : MonoBehaviour
             PauseResume();
         }
 
-        if (GameManager.timer < 5.0f)
-        {
-            clockTick.setParameterByName("Volume", 1);
-        }
-        else
-        {
-            clockTick.setParameterByName("Volume", 0);
-        }
+        clockTick.setParameterByName("Volume", GameManager.timer);
     }
 
     public void SetVolume(float value)
